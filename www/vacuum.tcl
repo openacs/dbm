@@ -21,6 +21,6 @@ ad_form -name vacuum -form {
     }
     db_dml vacuum "VACUUM $full $freeze $analyze"
 } -after_submit {
-    ad_returnredirect "admin?msg=[_ dbm.vaccum_complete]"
+    ad_returnredirect "admin?msg=[_ dbm.vacuum_complete]"
     ad_script_abort
 }

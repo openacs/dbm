@@ -116,7 +116,7 @@
   <msg key="type">Typ</msg>
   <msg key="typeofindex">Indexart</msg>
   <msg key="users">Benutzer</msg>
-  <msg key="vaccum_complete">Vakuum abgeschlossen</msg>
+  <msg key="vacuum_complete">Vakuum abgeschlossen</msg>
   <msg key="Vacuum">Vakuum</msg>
   <msg key="Variables">Variablen</msg>
   <msg key="view">Sicht</msg>
