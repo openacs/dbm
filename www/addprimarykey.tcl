@@ -19,7 +19,7 @@ ad_form -name createprimarykey -form {
     }
 } -on_submit {
      
-    set output [list]
+    set output {}
 
     foreach el $column {
 	lappend output [concat \"$el\"]

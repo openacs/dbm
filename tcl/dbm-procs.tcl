@@ -11,7 +11,7 @@ ad_proc dbm::create_combo_opts {
 } {
     Simple procedure to create options for dropdown menu
 } {
-    set opts [list]
+    set opts {}
     if {!$no_empty_option_p} {
         set opts [linsert $opts 0 ""]
     }
@@ -37,7 +37,7 @@ ad_proc dbm::highlight_sql {
 } {
     A simple proc to highlight sql
 } {
-    set result [list]
+    set result {}
 
     regsub -all {([^ \n\t]+)} $sql {\0} sql
     set sql [split $sql " "]
@@ -169,7 +169,7 @@ ad_proc -private dbm::create_form_def {
     @author Nima Mazloumi
     @creation-date 2005-08-24
 } {
-    set fields [list]
+    set fields {}
 
     set count [llength $elements]
 

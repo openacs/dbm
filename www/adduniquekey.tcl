@@ -19,7 +19,7 @@ ad_form -name createuniquekey -form {
     }
 } -on_submit {
      
-    set output [list]
+    set output {}
 
     foreach el $column {
 	lappend output [concat \"$el\"]

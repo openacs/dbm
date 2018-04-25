@@ -36,7 +36,7 @@ ad_form -name createindex -form {
 	set unique "UNIQUE"
     }
     
-    set output [list]
+    set output {}
 
     foreach el $column {
 	lappend output [concat \"$el\"]
