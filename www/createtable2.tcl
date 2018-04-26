@@ -8,14 +8,14 @@ ad_page_contract {
 
 
 # now retrieve the data
-set field_ids [list]
+set field_ids {}
 for {set i 0} {$i<$amount} {incr i} {
     lappend field_ids f_$i
 }
 
 set form_name createtable2
 
-set elements [list]
+set elements {}
 for {set i 0} {$i<$amount} {incr i} {
     lappend elements $i
 }
