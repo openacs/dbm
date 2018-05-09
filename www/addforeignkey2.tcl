@@ -53,8 +53,8 @@ ad_form -name createforeignkey2 -form {
     
 } -on_submit {
 
-    set output {}
-    set output2 {}
+    set output [list]
+    set output2 [list]
 
     foreach el $column {
 	lappend output [concat \"$el\"]
